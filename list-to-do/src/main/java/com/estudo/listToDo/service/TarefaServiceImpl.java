@@ -16,7 +16,7 @@ public class TarefaServiceImpl implements TarefaService{
 
         Tarefa tarefas = new Tarefa();
 
-        tarefas.setId(tarefaDTO.getId());
+
         tarefas.setNome(tarefaDTO.getNome());
         tarefas.setDescricao(tarefaDTO.getDescricao());
         tarefas = tarefaRepository.save(tarefas);
