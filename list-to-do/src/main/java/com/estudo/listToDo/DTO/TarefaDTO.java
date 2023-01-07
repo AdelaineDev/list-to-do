@@ -1,12 +1,10 @@
 package com.estudo.listToDo.DTO;
 
 import com.estudo.listToDo.entity.Tarefa;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
